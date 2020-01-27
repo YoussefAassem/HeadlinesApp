@@ -14,7 +14,6 @@ protocol ListViewFactoryProtocol {
 }
 
 protocol ListViewProtocol {
-    var delegate: ListViewDelegate? { get set }
     func updateView(with data: ListViewData)
     func setDelegate(_ viewDelegate: ListViewDelegate)
 }
